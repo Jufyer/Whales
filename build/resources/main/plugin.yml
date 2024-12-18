@@ -1,0 +1,14 @@
+api-version: 1.21.4
+name: whales-plugin
+version: 1.0.0-SNAPSHOT
+main: org.jufyer.plugin.whales.Main
+description: Whales plugin for Minecraft Java 1.21.4
+load: STARTUP
+authors:
+- Jufyer
+commands:
+    customBlock: {}
+    findboneblocks: {}
+    giveBarnacle: {}
+    strucutreWhale: {}
+    whale: {}

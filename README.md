@@ -4,7 +4,7 @@ This Minecraft Plugin adds Whales to Minecraft. With that it also adds Barnacles
 
 ## Installation
 
-At first you need to install the Plugin like any other Minecraft Plugin. If you are done with that you need to either use the resourcepack by urself or you can set it as a must have on the whole server. You can do that with [`this Tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube.\
+At first you need to install the Plugin like any other Minecraft Plugin. If you are done with that you need to either use the resourcepack by urself or you can set it as a must have on the whole server. You can do that with [`this Tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube. You need OptiFine for this Rescource Pack to work. Alternativly you can use this Mods: [`[ETF] Entity Texture Features`](https://modrinth.com/mod/entitytexturefeatures) and this Mod: [`[EMF] Entity Model Features`](https://modrinth.com/mod/entity-model-features) \
 You can download the newest release [`here`](https://github.com/Jufyer/Whales/releases).
 
 ## Showcase

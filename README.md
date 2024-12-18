@@ -19,7 +19,7 @@ This is a Picture of the Loot wich is droped by the whale when you right-click i
 This is a Picture of the Structure "Whale Fall".
 
 <p align="center"><img src="https://i.imgur.com/5y05cQc.png"></p>
-This is the Barnacle Spike wich you can craft with 3 Barnacles, a Redstone Dust and a Stone Pressure Plate. One Barnacle is dropped by one whale when you shear it. You can craft the Barnacle Spike in the following way:
+This is the Barnacle Spike wich you can craft with 3 Barnacles, a Redstone Dust and an Iron Ingot. One Barnacle is dropped by one whale when you shear it. You can craft the Barnacle Spike in the following way:
 <p align="center"><img src="https://i.imgur.com/lRkQEv5.png"></p>
 
 If you activate it with redstone and a Player is ontop of it, it damages the Player. It looks like this: 

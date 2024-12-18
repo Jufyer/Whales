@@ -1,14 +1,37 @@
-# paperweight-test-plugin
+# Whales Minecraft Plugin
 
-jmp's test plugin for [`paperweight-userdev`](https://github.com/PaperMC/paperweight/tree/main/paperweight-userdev) development
+This Minecraft Plugin adds Whales to Minecraft. With that it also adds Barnacles and also Barnacle Spikes. The Plugin is completly inspired by this Post on [`X`](https://x.com/home) by [`@Vitreous_Glassy`](https://x.com/Vitreous_Glassy). You can find it [`here`](https://x.com/Vitreous_Glassy/status/1675694140368011266).
 
-(also serves as an example until more thorough documentation is created)
+## Installation
 
-### notes (read these)
+At first you need to install the Plugin like any other Minecraft Plugin. If you are done with that you need to either use the resourcepack by urself or you can set it as a must have on the whole server. You can do that with [`this Tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube.\
+You can download the newest release [`here`](https://github.com/Jufyer/Whales/releases).
 
-- `build.gradle.kts` and `settings.gradle.kts` both contain important configuration.
-- `paperweight-userdev` automatically detects shadow and will use `shadowJar` as input for `reobfJar`. This means no extra configuration is required to use `paperweight-userdev` with shadow. See the `shadow` branch on this repository for an example usage of shadow with `paperweight-userdev`.
-- The `run-paper` Gradle plugin is optional, it integrates with paperweight and allows for launching a test server with your plugin through the `runServer` and `runMojangMappedServer` tasks.
-- Due to a [gradle bug](https://github.com/gradle/gradle/issues/17559), independently applying `paperweight-userdev` to multiple projects in a build can result in errors. To work around this, apply `paperweight-userdev` to the root project with `apply false` (i.e., `id("...") version "..." apply false` in Kotlin DSL), and then when applying `paperweight-userdev` to subprojects don't include a version specification. A more advanced solution would involve adding `paperweight-userdev` as a dependency to your build logic, see [`reflection-remapper`](https://github.com/jpenilla/reflection-remapper) and the [`source-remap`](https://github.com/PaperMC/paperweight-test-plugin/tree/source-remap) branch on this repo for examples of this.
-- The [`source-remap`](https://github.com/PaperMC/paperweight-test-plugin/tree/source-remap) branch on this repo has a special `remapPluginSources` task to remap the source code in `src/main/java` from spigot to Mojang mappings, outputting remapped source in `/src/main/mojangMappedJava`. Note that this will only remap your code, not update it from a prior version. Meaning you must be using the dev bundle for the Minecraft version your source code is for when remapping.
-- `paperweight-userdev` doesn't provide any utilities for doing reflection. [`reflection-remapper`](https://github.com/jpenilla/reflection-remapper) is a companion library to `paperweight-userdev` assisting with reflection on remapped code.
+## Showcase
+
+<p align="center"><img src="https://imgur.com/ejMg24q.jpg"></p>
+This is a Picture of the Whale wich is added to the game.
+
+<p align="center"><img src="https://i.imgur.com/hOWf785.png"></p>
+This is a Picture of the Loot wich is droped by the whale when you right-click it with a Shear.
+
+<p align="center"><img src="https://i.imgur.com/MAuDGf5.png"></p>
+This is a Picture of the Structure "Whale Fall".
+
+<p align="center"><img src="https://i.imgur.com/5y05cQc.png"></p>
+This is the Barnacle Spike wich you can craft with 3 Barnacles, a Redstone Dust and a Stone Pressure Plate. One Barnacle is dropped by one whale when you shear it. You can craft the Barnacle Spike in the following way:
+<p align="center"><img src="https://i.imgur.com/lRkQEv5.png"></p>
+
+If you activate it with redstone and a Player is ontop of it, it damages the Player. It looks like this: 
+<p align="center"><img src="https://i.imgur.com/sROAkXL.png"></p>
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[`The Unlicense`](https://choosealicense.com/licenses/unlicense/)

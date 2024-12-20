@@ -5,7 +5,7 @@ This Minecraft Plugin adds Whales to Minecraft. It also introduces Barnacles and
 ## Installation
 
 1. Install the plugin like any other Minecraft plugin.
-2. After installation, you need to either use the provided resource pack yourself or set it as mandatory for the whole server. You can find the resource pack by going to the [`releases`](https://github.com/Jufyer/Whales/releases). 
+2. After installation, you need to either use the provided resource pack yourself or set it as mandatory for the whole server. You can find the resource pack by going to the [`releases`](https://github.com/Jufyer/Whales/releases) or on [`MediaFire`](https://www.mediafire.com/file/jpnmy1v0d30tlog/Whales+Resourcepack.zip/file). 
 3. To set it as mandatory, follow [`this tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube.
 
 You can download the latest release [`here`](https://github.com/Jufyer/Whales/releases).

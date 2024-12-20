@@ -1,37 +1,47 @@
 # Whales Minecraft Plugin
 
-This Minecraft Plugin adds Whales to Minecraft. With that it also adds Barnacles and also Barnacle Spikes. The Plugin is completly inspired by this Post on [`X`](https://x.com/home) by [`@Vitreous_Glassy`](https://x.com/Vitreous_Glassy). You can find it [`here`](https://x.com/Vitreous_Glassy/status/1675694140368011266).
+This Minecraft Plugin adds Whales to Minecraft. It also introduces Barnacles and Barnacle Spikes. The plugin is completely inspired by a post on [`X`](https://x.com/home) by [`@Vitreous_Glassy`](https://x.com/Vitreous_Glassy). You can find the post [`here`](https://x.com/Vitreous_Glassy/status/1675694140368011266).
 
 ## Installation
 
-At first you need to install the Plugin like any other Minecraft Plugin. If you are done with that you need to either use the resourcepack by urself or you can set it as a must have on the whole server. You can do that with [`this Tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube. You need OptiFine for this Rescource Pack to work. Alternativly you can use this Mods: [`[ETF] Entity Texture Features`](https://modrinth.com/mod/entitytexturefeatures) and this Mod: [`[EMF] Entity Model Features`](https://modrinth.com/mod/entity-model-features) \
-You can download the newest release [`here`](https://github.com/Jufyer/Whales/releases).
+1. Install the plugin like any other Minecraft plugin.
+2. After installation, you need to either use the provided resource pack yourself or set it as mandatory for the whole server. You can find the resource pack on [GitHub](https://github.com/Jufyer/Whales). 
+3. To set it as mandatory, follow [`this tutorial`](https://www.youtube.com/watch?v=qCVPgn3IppU) by [`@KasaiSora`](https://www.youtube.com/@KasaiSora) on YouTube.
+
+You can download the latest release [`here`](https://github.com/Jufyer/Whales/releases).
 
 ## Showcase
 
+### Whale
 <p align="center"><img src="https://imgur.com/ejMg24q.jpg"></p>
-This is a Picture of the Whale wich is added to the game.
+A majestic whale added to the game.
 
+### Loot
 <p align="center"><img src="https://i.imgur.com/hOWf785.png"></p>
-This is a Picture of the Loot wich is droped by the whale when you right-click it with a Shear.
+Loot dropped by the whale when you right-click it with shears.
 
+### Whale Fall
 <p align="center"><img src="https://i.imgur.com/MAuDGf5.png"></p>
-This is a Picture of the Structure "Whale Fall".
+The "Whale Fall" structure.
 
+### Barnacle Spike
 <p align="center"><img src="https://i.imgur.com/5y05cQc.png"></p>
-This is the Barnacle Spike wich you can craft with 3 Barnacles, a Redstone Dust and an Iron Ingot. One Barnacle is dropped by one whale when you shear it. You can craft the Barnacle Spike in the following way:
+You can craft the Barnacle Spike using:
+- 3 Barnacles (dropped when you shear a whale),
+- 1 Redstone Dust,
+- 1 Iron Ingot.
+
+Here is the crafting recipe:
 <p align="center"><img src="https://i.imgur.com/lRkQEv5.png"></p>
 
-If you activate it with redstone and a Player is ontop of it, it damages the Player. It looks like this: 
+If activated with redstone and a player steps on it, it deals damage to the player. It looks like this:  
 <p align="center"><img src="https://i.imgur.com/sROAkXL.png"></p>
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.  
+Ensure to update any relevant tests when making changes.
 
 ## License
 
-[`The Unlicense`](https://choosealicense.com/licenses/unlicense/)
+This plugin is distributed under [`The Unlicense`](https://choosealicense.com/licenses/unlicense/). Feel free to use and modify it as you wish!

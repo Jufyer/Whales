@@ -63,10 +63,5 @@ bukkitPluginYaml {
   authors.add("Jufyer")
   apiVersion = "1.21.4"
   commands {
-    register("whale")
-    register("strucutreWhale")
-    register("findboneblocks")
-    register("customBlock")
-    register("giveBarnacle")
   }
 }

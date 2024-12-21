@@ -32,7 +32,7 @@ public class customBlockListeners implements Listener {
       ArmorStand as = (ArmorStand) event.getRightClicked();
       if (as.getEquipment().getHelmet() != null && as.getEquipment().getHelmet().getType() == Material.NAUTILUS_SHELL) {
         ItemMeta meta = as.getEquipment().getHelmet().getItemMeta();
-        if (meta != null && meta.getCustomModelData() == 1234) {
+        if (meta != null && meta.hasCustomModelData() && meta.getCustomModelData() == 1234) {
           event.setCancelled(true);
         }
       }
@@ -44,7 +44,8 @@ public class customBlockListeners implements Listener {
     ItemStack item = event.getItem();
     if (item != null && item.hasItemMeta()) {
       ItemMeta meta = item.getItemMeta();
-      if (meta != null && meta.getCustomModelData() == 1234) {
+      if (meta != null && meta.hasCustomModelData() && meta.getCustomModelData() == 1234) {
+
         if (event.getAction().isRightClick()) {
           Player player = event.getPlayer();
           long currentTime = System.currentTimeMillis();
@@ -108,7 +109,7 @@ public class customBlockListeners implements Listener {
   private void createBlock(Location loc) {
     ItemStack Barnacles = new ItemStack(Material.NAUTILUS_SHELL);
     ItemMeta meta = Barnacles.getItemMeta();
-    if (meta != null) {
+    if (meta != null ) {
       meta.setDisplayName("§rBarnacle Spike");
       meta.setCustomModelData(1234);
       Barnacles.setItemMeta(meta);

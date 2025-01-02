@@ -32,7 +32,7 @@ public class rightClickListener implements Listener {
         ItemStack barnacles = new ItemStack(Material.NAUTILUS_SHELL);
         ItemMeta meta = barnacles.getItemMeta();
         meta.setDisplayName("§rBarnacle");
-        meta.setCustomModelData(123);
+        meta.setCustomModelData(2118);
         barnacles.setItemMeta(meta);
         loc.getWorld().dropItemNaturally(loc, barnacles);
 

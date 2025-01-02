@@ -39,7 +39,7 @@ public final class Main extends JavaPlugin implements CommandExecutor {
     ItemMeta meta = Barnacles.getItemMeta();
     if (meta != null) {
       meta.setDisplayName("§rBarnacle Spike");
-      meta.setCustomModelData(1234);
+      meta.setCustomModelData(12345);
       Barnacles.setItemMeta(meta);
     }
 

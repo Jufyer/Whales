@@ -30,7 +30,7 @@ tasks.assemble {
  */
 
 dependencies {
-  paperweight.paperDevBundle("1.21.4-R0.1-SNAPSHOT")
+  paperweight.paperDevBundle("1.21.1-R0.1-SNAPSHOT")
   // paperweight.foliaDevBundle("1.21.1-R0.1-SNAPSHOT")
   // paperweight.devBundle("com.example.paperfork", "1.21.1-R0.1-SNAPSHOT")
 }

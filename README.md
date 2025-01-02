@@ -45,4 +45,4 @@ Ensure to update any relevant tests when making changes.
 
 ## License
 
-This plugin is distributed under [`The Unlicense`](https://choosealicense.com/licenses/unlicense/). Feel free to use and modify it as you wish!
+This project is licensed under the [`GNU General Public License Version 3`](https://github.com/Jufyer/Whales/blob/master/LICENSE).
